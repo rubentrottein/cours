@@ -1,0 +1,84 @@
+*{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#lightbox{
+    position: fixed;
+    left: 27em;
+    top: 2em;
+    width: 40em;
+    height: 30em;
+    background: red;
+    display: none;
+}
+nav{
+    background: linear-gradient(seagreen, aquamarine);
+    padding:1em;
+    margin: 0 auto;
+}
+nav ul li{
+    margin:0 1em;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: aliceblue;
+}
+p img{
+    width: 100%;
+    z-index:3;
+}
+#start img{
+    max-width: 10em;
+}
+body{
+    z-index: 2;
+}
+/*
+#bg-img{
+    background: url("../img/train.jpg");
+    filter: blur();
+}
+*/
+nav{list-style-type: none;}
+nav ul{display: flex; justify-content: space-around;}
+nav{display: flex; justify-content: space-between;padding-right: 5em;}
+footer{
+    position: fixed;
+    width:100%;
+    bottom:0;
+    left:0;
+    background: black;
+    color: antiquewhite;
+    padding: .5em;
+}
+footer a{
+    text-decoration: none;
+    color: darkorange;
+    text-align: center;
+}
+/*******************Video Background**********************/
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../img/ps5-logo.png') fixed no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+  video #bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url("../img/ps5-logo.png") fixed no-repeat;
+    background-size: cover;
+}
+
+  form{
+    display: flex;
+    flex-direction: column;
+}

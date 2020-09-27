@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title>LightBox</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Découvrez l'Appart1">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <video poster="img/train.png" id="bgvid" playsinline autoplay muted loop>
+            <!-- 
+            - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+            WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  
+            -->
+            <source src="vid/Forest - 49981.mp4" type="video/mp4">
+        </video>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Element 1</a></li>
+                    <li><a href="">Element 2</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Element 3</a></li>
+                    <li><a href="">Element 4</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="bg-img">
+                <img id="start" src="img/train.jpg">
+                <p id="lightbox"></p>
+            </section>
+            <form>
+                <input type="text" name="test" value="date d'arrivée" />
+                <input type="date" name="test" value="date de départ" />
+            </form>
+        </main>
+        <footer>
+            Video by <a href="https://pixabay.com/fr/users/Matthias_Groeneveld-4535957/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=49981">Matthias Groeneveld</a> from <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=49981">Pixabay</a>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
+</html>

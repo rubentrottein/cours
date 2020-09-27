@@ -1,0 +1,291 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    /*padding-top: 3rem;*/
+    padding-bottom: 3rem;
+    color: #5a5a5a ;
+    font-family: 'Kumbh Sans', sans-serif;
+     }
+
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    text-shadow: 5px 5px 10px  aliceblue;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 700px;
+      /*  2rem;*/
+  }
+  .carousel-item > img {
+    width: 100%;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 50rem;
+    opacity: 2.6;*/
+  }
+
+#header {
+  display:flex;
+  height: 140px;
+}
+
+.logo {
+padding: 0px 25px 30px 50px;
+}
+.logo img{
+height: 130px}
+
+/*
+.mail{  
+padding :69PX 231PX 3PX 35PX;
+}
+*/
+.mail{
+  display: flex;
+}
+.mail a{
+font-size: 40px;
+color:#000000;
+}
+.mail a:hover{
+  text-decoration:none;
+  color : darkgoldenrod;
+  transition : .5s;
+}
+h1{
+  font-size: 100px;
+  
+}
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  #studios{
+    display: flex;
+  }
+
+  .marcadet {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .marcadet h2 {
+    padding: -20px 25px 50px 0;
+    font-size: 46PX;
+   }
+  .marcadet  p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    font-size: 20px;
+  }
+  .marcadet img{margin: 10px 11px 29px 25px;
+    width: 70%;
+  }
+
+.feutrier {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .feutrier h2 {
+    padding: -20px 25px 50px 0;
+    font-size: 46PX;
+   }
+  .feutrier  p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    font-size: 20px;
+  }
+  .feutrier img{    
+    margin: 10px 11px 29px 25px;
+    width: 70%;
+  }
+
+.titre h2{
+font-size: 46PX;
+text-align: center;
+padding:40px;
+}
+#commentaires{display: flex;
+margin-bottom: 50px;}
+
+
+.alvatar img{
+padding: 0px 50px 0px 70px;}
+
+#partie1{
+display:flex;
+text-align: center;}
+
+#partie1 .texte{
+padding: 119px 20px 50px 87px;}
+
+#partie1 .texte h2{
+font-size: 46px;}
+.texte p{
+font-size: 20px;}
+
+
+#partie1 .photo img{
+width: 70%;}
+  
+#partie2{
+display:flex;
+text-align: center;}
+
+#partie2 .photo img{
+width: 100%;
+padding: 25px;}
+
+#partie2 .texte{
+padding: 113px 81px 112px 220px;}
+#partie2 .texte h2{
+font-size: 46px;}
+#partie2 .texte p{
+font-size: 20px;}
+
+#partie3{
+display:flex;      
+text-align: center; }
+
+#partie3 .texte{
+padding: 119px 20px 50px 87px;}
+#partie3 .texte h2{
+font-size: 46px;}
+#partie3 .texte p{
+font-size: 20px;}
+
+#partie3 .photo img{
+width: 80%;
+padding: 25px;}
+
+#partie4{
+display:flex;      
+text-align: center;}
+
+#partie4 .photo img{width: 70%;}
+
+#partie4 .texte{    
+  padding: 123px 81px 112px 63px;}
+    
+#partie4 .texte h2{
+ font-size: 46px;}
+#partie4 .texte p{
+font-size: 20px;}
+
+    /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+  /* Thin out the marketing headings */
+  /*.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  */
+footer { 
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+color: #ffffff;
+font-size: 20px;    }
+
+
+/*
+#contact form{
+width: 60%;
+margin: auto;
+}
+
+#contact form #nom, #contact form #tel, #contact form #mail{
+width: 100%;
+border-radius: 5px;
+border: 1px dashed #000000;
+height: 30px;
+margin: 20px 0;
+}
+
+#contact form textarea{
+width: 100%;
+border-radius: 5px;
+border: 1px dashed #000000;
+height: 100px;
+margin: 20px 0;
+resize: none;
+
+}
+ #contact form #envoyer{
+color: #ffffff;
+background-color: #18bd9b;
+border-radius: 5px;
+border: none;
+padding: 15px;
+font-size:20px;
+margin: auto;
+display: block;
+margin-top: 10px;
+cursor:pointer;}
+
+#contact form #envoyer:hover{
+color: #18bd9b;
+background-color: #ffffff;
+border: 1px solid #18bd9b;
+transition: 0.3s;}*/
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+/*  @media (min-width: 680px;) {*//*
+     Bump up size of carousel content */
+    /*.carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+       }
+carousel-item {
+    height: 200px;
+      
+  }
+
+.carousel-caption h1{
+  height: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #000000 ;
+    border-radius: 25px;
+    opacity: 0.6;
+    font-weight: 700px;
+  }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  
+  */
+
+  #header{
+    justify-content: space-between;
+  }
+  .mail{padding-right: 2em;}

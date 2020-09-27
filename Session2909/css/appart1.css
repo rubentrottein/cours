@@ -1,0 +1,194 @@
+body{
+
+    font-family:'Kumbh Sans', sans-serif;}
+    
+    header{
+    width: 100%;
+    background-color: grey;}
+    
+    header h1{
+    text-align: center;/*
+    text-transform:uppercase;*/
+    color: white;
+    padding: 15px;
+    }
+    
+    /*h1 p span{text-align: center;}*/
+    
+    p{
+    font-size: 20px;
+    height: 130px;
+    text-align: center;
+    padding: 38px 24px 0px 18px;
+    }
+    
+    img{
+    border: 5px solid #343a40;
+    }
+    
+    .ligneImg{
+    display: flex;
+    width:100%;
+    }
+    
+    .ligneImg div{
+    width:33.33%;
+    padding:21px 63px;
+    box-sizing: border-box;
+    }
+    
+    .ligneImg div img{
+        width: 100%;
+        transition: 1s;
+    }
+    .ligneImg div img:hover{
+        transform: scale(1.05);
+    }
+    
+    
+    .ligneTxt{
+    width: 100%;
+    display: flex;
+    }
+    
+    .ligneTxt div{
+    color: #ffffff;
+    padding:0 50px;
+    box-sizing: border-box;
+    width:33.33%;
+    }
+    
+    .ligneTxt div h3 {
+    text-align:center;
+    font-size: 20px;
+    color: #2d3d50;
+    margin-bottom: 25px;
+    }
+    
+    .ligneTxt div p{
+    text-align:center;
+    font-size: 17px;
+    color: #2d3d50;
+    margin-bottom: 25px;
+    }
+    
+    .ligneTxt div li {
+    text-align:center;
+    font-size: 17px;
+    color: #2d3d50;
+    margin-bottom: 25px;
+    }
+    
+    .situation{
+        width: 100%;
+        display:flex;
+    }
+    
+    .situation div{
+    color: #ffffff;
+    padding: 40px 53px;
+    box-sizing: border-box;
+    width:100%;	
+    }
+    .situation div h2{
+    text-align:center;
+    font-size: 20px;
+    color: #2d3d50;
+    margin-bottom: 25px;
+    }
+    
+    .situation div iframe{
+    text-align:center;
+    font-size: 15px;
+    color: #2d3d50;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    .situation div li {
+    text-align:center;
+    font-size: 17px;
+    color: #2d3d50;
+    margin-bottom: 25px;
+    padding: 20px 20px;
+    }
+    footer{
+    width: 100%;
+    background-color: grey;
+    height: 80px;
+    padding: 23px 10px;
+    }
+    
+    footer a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    }
+    
+    @media screen and (max-width:680px){
+    
+    h1{font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 34px 15px;}
+    
+    .description p{
+    padding: 15px 387px 10px 5px;   
+    font-size: 15px;
+    text-align: center;
+        }
+    .description{
+    display: block;
+    font-size: 15px;
+    width: 747px;
+    height: 208px;}
+    
+    button{
+    font-size: 15px;
+    padding: 5px 50px;}
+    
+    .ligneImg{
+    display: block;}
+    .ligneImg div{
+    width: 100%;}
+    
+    .ligneTxt{
+    display: block;}
+    
+    .ligneTxt div{
+    width: 100%;}
+      
+    .ligneTxt div h2{
+     margin-top: 19px;}
+    
+    .ligneTxt div li{
+     font-size: 15px;}
+    
+    .situation{ 
+    display: block; }
+    
+    .situation div {
+    padding:5px 0;}
+    
+    .situation div iframe {
+    width: 100%;}
+    
+    .situation div h2 {
+    font-size: 19px}
+    
+    .situation div li {
+    font-size: 15px;
+    padding: 2px 20px;
+    }
+    footer a{
+        font-size: 20px;  }
+    
+      footer{
+        display: block;
+        height: 54px;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }

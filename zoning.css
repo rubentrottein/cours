@@ -1,0 +1,47 @@
+h1{text-align: center; margin: 0;}
+nav{ 
+    background: darkslategray; 
+    color: seashell;
+    margin: 0;
+}
+html{ background: seagreen;}
+body{ 
+    height: 90%; 
+    margin: 0 auto;
+}
+article{ 
+    width: 50%; 
+    margin: 1em auto; 
+    background: plum; 
+    display: block;
+}
+main{ 
+    width: 90%; 
+    margin: auto;
+}
+section{
+     width: 95%; 
+    background: steelblue; 
+    display: flex;
+}
+aside{ 
+    margin: auto auto  0 0; 
+    padding: 20%;
+    background: indianred;
+}
+footer{
+    background: black; 
+    color: snow; 
+    padding: 1em; 
+    position fixed; 
+    width: 100%;}
+ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color: bisque;
+}
+ul a{
+    color: aliceblue;
+    text-decoration: none;
+}
