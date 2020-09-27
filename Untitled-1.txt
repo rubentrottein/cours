@@ -10,4 +10,4 @@ Maria  :
     Ranger les fichiers pour envoyer un recap propre
     Récupérer le replay de vendredi
     Répondre à son message
-    Lien WeTransfer temporaire: 
+    Lien WeTransfer temporaire: https://we.tl/t-5VdOC7YNcH
