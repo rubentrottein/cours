@@ -1,17 +1,24 @@
 *{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+section{display: none;}
+h2{background: wheat;}
 #lightbox{
     position: fixed;
-    left: 27em;
-    top: 2em;
-    width: 40em;
-    height: 30em;
+    left: 5%;
+    top: 3%;
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
     background: red;
     display: none;
+}
+#lightbox img{
+    width: 100%;
 }
 nav{
     background: linear-gradient(seagreen, aquamarine);
     padding:1em;
     margin: 0 auto;
+    line-height: 10em;
 }
 nav ul li{
     margin:0 1em;
@@ -21,6 +28,10 @@ nav ul li a{
     text-decoration: none;
     font-size: 2em;
     color: aliceblue;
+}
+nav img{
+    max-height:10em;
+    border-radius: 100%;
 }
 p img{
     width: 100%;
